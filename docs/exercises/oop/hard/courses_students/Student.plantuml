@@ -1,0 +1,8 @@
+@startuml
+class Student {
+    - skillLevel: number
+
+    + constructor(skillLevel: number)
+    + skillLevel(): number
+}
+@enduml

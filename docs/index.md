@@ -18,11 +18,9 @@
 - [algoritmizálás, sztring műveletek](https://drive.google.com/open?id=19GZIN49jqxfSDsNxY3JlKmTy0DSO2Vc-Na6ur6PZNqM)
 - [algoritmizálás, tömbre](https://drive.google.com/open?id=19GZIN49jqxfSDsNxY3JlKmTy0DSO2Vc-Na6ur6PZNqM)
 
-# elméleti kérdések, segédanyagok
+# elméleti kérdések
 
-- [szintaxis](theory/syntax)
-- [értékek, típusok](theory/values)
-- [operátorok](theory/operators)
+[Kérdéssor](theory/)
 
 ## segédanyagok beküldése kérdése
 

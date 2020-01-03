@@ -1,0 +1,10 @@
+@startuml
+class BoxClub {
+    - boxers: Boxer[]
+
+    + constructor(boxers: Boxer[])
+    + boxers(weightClass: number): Boxer[]
+    + sign(boxer: Boxer): Boxer[]
+    + breakUp(boxer: Boxer): Boxer[]
+}
+@enduml

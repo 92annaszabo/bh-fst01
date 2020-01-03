@@ -1,0 +1,10 @@
+@startuml
+class Rectangle {
+    a: number
+    b: number
+
+    constructor(a: number, b: number)
+    perimeter(): number
+    area(): number
+}
+@enduml

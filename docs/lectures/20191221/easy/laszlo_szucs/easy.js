@@ -1,3 +1,3 @@
 module.exports = {
-    isEasy: () => true
+    isEas: () => true
 }

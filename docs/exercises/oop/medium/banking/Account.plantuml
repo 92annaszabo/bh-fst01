@@ -1,0 +1,11 @@
+@startuml
+class Account {
+    - _transactions: number[]
+
+    + constructor(initialDeposit: number)
+    + balance()
+    + transfer(amount: number, toAccount: Account)
+    + deposit(amount: number, person: Person)
+    + withdraw(amount: number, person: Person)
+}
+@enduml

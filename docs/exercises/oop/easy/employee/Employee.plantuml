@@ -1,0 +1,10 @@
+@startuml
+class Employee {
+    - name: string
+    - salary: number
+
+    + raiseSalary(percent: number)
+    + annualSalary(): number
+    + toString(): string
+}
+@enduml

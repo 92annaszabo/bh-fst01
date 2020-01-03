@@ -1,0 +1,9 @@
+@startuml
+class Lecturer {
+    - skills: string[]
+
+    + constructor(skills: string[])
+    + skills()
+    + matchTopics(topics: string[])
+}
+@enduml

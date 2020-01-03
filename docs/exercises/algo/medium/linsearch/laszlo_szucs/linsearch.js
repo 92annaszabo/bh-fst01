@@ -1,0 +1,3 @@
+function linsearch(arr, cond) {
+    
+}

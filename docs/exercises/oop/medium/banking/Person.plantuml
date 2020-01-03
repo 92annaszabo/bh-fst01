@@ -1,0 +1,12 @@
+@startuml
+class Person {
+    - _cash: number
+    - _accounts: Account[]
+
+    + constructor(cash: number, accounts: Account[])
+    + cash(): number
+    + useCash(amount: number)
+    + receiveCash(amount: number)
+    + totalAssets(): number
+}
+@enduml

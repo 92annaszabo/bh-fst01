@@ -1,0 +1,12 @@
+@startuml
+class Boxer {
+    - weight: number
+    - club: BoxClub
+
+    + constructor(weight: number, club: BoxClub)
+    + weightClass(): number
+    + club(): BoxClub
+    + sign(club: BoxClub)
+    + leave()
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class Restaurant {
+    - _dishes: Dish[]
+
+    + constructor(dishes: Dish[])
+    + recommendations(): Dish[]
+}
+@enduml

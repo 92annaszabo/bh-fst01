@@ -1,0 +1,15 @@
+@startuml
+class Course {
+    - students: Student[]
+    - lecturer: Lecturer
+    - minStudentCount: number
+    - topics: string[]
+
+    + constructor(students: Student[], lecturer: Lecturer, minStudentCount: number, topics: string[])
+    + addStudent(student)
+    + addLecturer(lecturer)
+    + lecturer(): Lecturer | null
+    + students(): Student[]
+    + canStart(): bool
+}
+@enduml

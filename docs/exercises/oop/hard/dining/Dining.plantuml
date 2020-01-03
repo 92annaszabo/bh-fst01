@@ -1,0 +1,9 @@
+@startuml
+class Dining {
+    - _guests: Guest[]
+    - _restaurants: Restaurant[]
+
+    + constructor(guests: Guest[], restaurants: Restaurant[])
+    + options(): Restaurant[]
+}
+@enduml

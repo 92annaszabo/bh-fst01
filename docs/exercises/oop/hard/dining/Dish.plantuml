@@ -1,0 +1,7 @@
+@startuml
+class Dish {
+    - _ingredients: string[]
+
+    + containsAny(ingredients: string[]): bool
+}
+@enduml
