@@ -10,6 +10,9 @@
 - [2019. december 10., kedd](lectures/20191210)
 - [2019. december 12., csütörtök](lectures/20191212)
 - [2019. december 17., kedd](lectures/20191217)
+- 2019. december 19., csütörtök: próbainterjúk
+- [2019. december 21., szombat](lectures/20191221)
+- [2020. január 04., szombat](lectures/20200104)
 
 # gyakorló feladatsorok
 
@@ -18,30 +21,21 @@
 - [algoritmizálás, sztring műveletek](https://drive.google.com/open?id=19GZIN49jqxfSDsNxY3JlKmTy0DSO2Vc-Na6ur6PZNqM)
 - [algoritmizálás, tömbre](https://drive.google.com/open?id=19GZIN49jqxfSDsNxY3JlKmTy0DSO2Vc-Na6ur6PZNqM)
 
-# elméleti kérdések
-
-[Kérdéssor](theory/)
-
-## segédanyagok beküldése kérdése
-
-1. Forkold a repót
-1. Vidd fel a segédanyag linkjeit a kérdés alá
-1. Nyiss pull requestet az eredeti repóba
-
-Ay anyagok a repó `docs/theory` mappájában vannak.
-
-A linket markdown formátumban kell felvidd
-
-- [Markdown project home](https://daringfireball.net/projects/markdown/)
-- [Basic writing and formatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+# Elmélet
 
 
-Példa markdown
+📘Speaking JavaScript: [http://speakingjs.com/es5/index.html](http://speakingjs.com/es5/index.html)
 
-```
-Mik azok a literálok?
+📘Exploring ES6: [https://exploringjs.com/es6/ch_arrow-functions.html](https://exploringjs.com/es6/ch_arrow-functions.html)
 
-- [Tömb literálokról egyszerűen](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+A könyvek feldolgozását segítő sorvezető kérdések: [itt](theory/)
 
-```
+# Jelmagyarázat
+
+📘könyv
+📜cikk
+📹videó
+❕kötelező anyag
+🧠elméleti háttér (szabadon választható)
+
+

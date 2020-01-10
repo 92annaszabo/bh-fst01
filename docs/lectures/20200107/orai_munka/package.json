@@ -1,0 +1,19 @@
+{
+  "name": "ismetles2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ismetles": "node ismetles.js",
+    "callback": "node callback.js",
+    "modules": "node --experimental-modules modules.js",
+    "secret": "node --experimental-modules secret/index.js",
+    "test": "node --experimental-modules test/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}

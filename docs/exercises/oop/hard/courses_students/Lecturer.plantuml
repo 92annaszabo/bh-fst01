@@ -1,6 +1,6 @@
 @startuml
 class Lecturer {
-    - skills: string[]
+    - _skills: string[]
 
     + constructor(skills: string[])
     + skills()

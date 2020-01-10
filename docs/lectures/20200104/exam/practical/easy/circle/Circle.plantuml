@@ -1,0 +1,9 @@
+@startuml
+class Circle {
+    r: number
+
+    constructor(r: number)
+    perimeter(): number
+    area(): number
+}
+@enduml

@@ -74,7 +74,7 @@ A kurzushoz több hallgató és egyetlen oktató tartozik.
 A kurzus csak akkor tud elindulni, ha elegendő hallgató van és van oktató.
 
 
-## constructor(students: Student[], lecturer: Lecturer, minStudentsCount: number, topics: string[])
+## constructor(students: Student[], lecturer: Lecturer, minStudentCount: number, topics: string[])
 
 Inicializálja az objektumot. Megadhatjuk a kurzus hallgatóit, az oktatót, az indításához szükséges hallgatók számát valamint a kurzus tematikáját.
 

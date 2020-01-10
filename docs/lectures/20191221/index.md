@@ -1,9 +1,12 @@
 
-# gyakorlat
+# 2019. december 21., szombat
 
 
+[előző alkalom](../20191217) [következő alkalom](../20200104)
 
-# házi feladat
+# Git
+
+📘[https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
 
 ```
 $ git status
