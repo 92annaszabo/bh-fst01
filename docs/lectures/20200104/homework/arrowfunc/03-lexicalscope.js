@@ -7,7 +7,8 @@
 
 let steve = {
     name: 'Steve',
-    intro: function() { return `My name is ${this.name}` },
+    //intro: function() { return `My name is ${this.name}` },
+    intro: () => `My name is ${this.name}`,
     mood: function(weather) {
         switch(weather) {
             case 'rainy': return this.rainy()
@@ -15,15 +16,18 @@ let steve = {
             default: return this.default()
         }
     },
-    rainy: function() {
-        return 'coding'
-    },
-    sunny: function() {
-        return 'swimmimg'
-    },
-    default: function() {
+    // rainy: function() {
+    //     return 'coding'
+    // },
+    rainy: () => 'coding',
+    // sunny: function() {
+    //     return 'swimmimg'
+    // },
+    sunny: () => 'swimming',
+    // default: function() {
 
-    }
+    // }
+    default: () => {}
 
 }
 console.log(steve.intro())
@@ -33,13 +37,20 @@ console.log(steve.mood('rainy')) // == 'coding'
 
 const factory = {
     manufacturer: 'Fjord',
+    // mechanic: function() {
+    //     let that = this
+    //     return {
+    //         canFix: function(car) {
+    //             return car.manufacturer === that.manufacturer
+    //         }
+    //     }
+    // }
     mechanic: function() {
-        let that = this
-        return {
-            canFix: function(car) {
-                return car.manufacturer === that.manufacturer
-            }
-        }
+    let that = this; //ez nem lehet arrow function, mert nem ismeri fel a this-t
+    return {
+        canFix: (car) => car.manufacturer === that.manufacturer
+        
+    }
     }
 }
 

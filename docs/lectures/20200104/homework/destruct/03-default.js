@@ -5,9 +5,11 @@
 // (1)
 const userData = ['John Doe', 'john@example.com']
 
-const name = userData[0] === undefined? 'N/A' : userData[0]
-const email = userData[1] === undefined? 'N/A' : userData[1]
-const phone = userData[2] === undefined? 'N/A' : userData[2]
+// const name = userData[0] === undefined? 'N/A' : userData[0]
+// const email = userData[1] === undefined? 'N/A' : userData[1]
+// const phone = userData[2] === undefined? 'N/A' : userData[2]
+
+const [name, email, phone = "06301234567"] =  userData
 
 console.log(name, email, phone)
 
@@ -27,10 +29,23 @@ const productData = {
 // hibát kaphatunk, amikor a products objektumba próbálunk destrucuringelni
 const products = {};
 
-products.phones = productData.phones === undefined? [] : productData.phones
-products.tablets = productData.tablets === undefined? [] : productData.tablets
-products.kitchen = productData.appliances === undefined? [] : productData.appliances.kitchen === undefined? [] : productData.appliances.kitchen
-products.bathroom = productData.appliances === undefined? [] : productData.appliances.bathroom === undefined? [] : productData.appliances.bathroom
-products.other = productData.appliances === undefined? [] : productData.appliances.other === undefined? [] : productData.appliances.other
+// products.phones = productData.phones === undefined? [] : productData.phones
+// products.tablets = productData.tablets === undefined? [] : productData.tablets
+// products.kitchen = productData.appliances === undefined? [] : productData.appliances.kitchen === undefined? [] : productData.appliances.kitchen
+// products.bathroom = productData.appliances === undefined? [] : productData.appliances.bathroom === undefined? [] : productData.appliances.bathroom
+// products.other = productData.appliances === undefined? [] : productData.appliances.other === undefined? [] : productData.appliances.other
 
+({
+            phones: products.phone = [],
+            tablets: products.tablets = [],
+            appliances: {
+                kitchen: products.kitchen = [],
+                bathroom: products.bathroom = [],
+                other: products.other = []
+            }
+        }
+     
+ = productData );
+
+console.log(productData)
 console.log(products)

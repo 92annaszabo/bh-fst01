@@ -5,10 +5,14 @@
 
 const person = { first: 'John', last: 'Doe' }
 
-const first = obj.first
-const last = obj.last
+// const first = obj.first
+// const last = obj.last
+
+const {first, last} = person
 
 console.log(first, last)
+console.log(last)
+
 
 // (2)
 
@@ -17,6 +21,8 @@ person.address = {
     state: 'DC',
     street: '6th street'
 }
-const state = person.address.state
+// const state = person.address.state
+
+const {address: {state}} = person
 
 console.log(state)
