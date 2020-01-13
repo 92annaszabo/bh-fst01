@@ -1,0 +1,12 @@
+{
+    "horror": [
+        ["id", "title"],
+        [1, "Friday 13th"]
+    ],
+    "romance": [
+        {
+        "id": 1,
+        "title": "Notebook"
+    }
+    ]
+}
