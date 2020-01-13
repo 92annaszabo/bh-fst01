@@ -1,0 +1,13 @@
+{
+    "employees": [
+        {
+            "id": 1, "name": "Gizio", "email": "gizio@astrotv.hu", 
+            "salary": 70000000, "department_id": 1
+        }
+        
+    ],
+    "departments": [
+        {"id":1, "name":"department of quackery", "director_id": 1}
+        
+    ]
+}
