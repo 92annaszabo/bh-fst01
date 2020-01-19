@@ -1,4 +1,4 @@
-import fs from 'fs'
+import * as fs from 'fs'
 
 const secretTable = {
     a: 'b',
@@ -11,12 +11,12 @@ const secretTable = {
 };
 
 
-
-
 export let encodeAll = (...source) => {
 
     let sourceArr = []
-    sourceArr.push(...source) //;console.log(sourceArr)
+    sourceArr.push(...source) 
+    console.log(sourceArr)
+    console.log(...source)
     let result = {}
     
     sourceArr.map(source => {
